@@ -1,6 +1,15 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
 .hero-img {
-  background-image: url('images/tech-bg.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/background-img2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-position: right;
+  height: 80vh;
+}
+
+#info {
+  height
 }
