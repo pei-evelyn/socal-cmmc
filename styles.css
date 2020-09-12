@@ -6,10 +6,10 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/background-img2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
-  height: 80vh;
+  background-position: center;
+  height: 90vh;
 }
 
 #info {
-  height
+  height: 70vh;
 }
