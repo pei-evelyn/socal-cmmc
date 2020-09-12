@@ -14,28 +14,38 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="#">SC CMMC</a>
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Socal CMMC
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
           <a class="nav-link" href="#">Information</a>
-          <a class="nav-link" href="#">Contact</a>
         </div>
+        <form class="form-inline">
+          <a class="btn btn-primary" href="#">Contact</a>
+        </form>
       </div>
     </nav>
   </header>
+
   <main class="container-fluid">
     <section class="row">
       <div class="col-md-12 hero-img d-flex">
         <div class="text-center text-light m-auto">
           <h1>Cybersecurity Maturity Model Certification</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque.</p>
-          <input type="email" placeholder="E-mail address">
-          <button>Request Info</button>
+          <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+              <input type="email" class="form-control" id="email" placeholder="Enter e-mail address">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Request Info</button>
+          </form>
         </div>
       </div>
     </section>
