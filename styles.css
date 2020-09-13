@@ -1,15 +1,32 @@
-body {
-  font-family: 'Kumbh Sans', sans-serif;
+h1 {
+  font-weight: 600;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
 }
 
 .hero-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/background-img2.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('images/background-img2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 95vh;
 }
 
-#info {
+input {
+  width: 50%;
+}
+
+.cmmc-img {
+  width: 25%;
+}
+
+.footer-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/background-img-4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 70vh;
 }

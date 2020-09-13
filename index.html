@@ -15,7 +15,7 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="/images/logo.png" class="d-inline-block align-top logo" alt="">
         Socal CMMC
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -24,11 +24,11 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">Information</a>
+          <a class="nav-link active mx-2" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link mx-2" href="#">Information</a>
         </div>
         <form class="form-inline">
-          <a class="btn btn-primary" href="#">Contact</a>
+          <a class="btn btn-primary mx-2 px-3" href="#">Sign Up</a>
         </form>
       </div>
     </nav>
@@ -38,24 +38,47 @@
     <section class="row">
       <div class="col-md-12 hero-img d-flex">
         <div class="text-center text-light m-auto">
-          <h1>Cybersecurity Maturity Model Certification</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque.</p>
-          <form class="form-inline">
-            <div class="form-group mx-sm-3 mb-2">
-              <input type="email" class="form-control" id="email" placeholder="Enter e-mail address">
+          <h1 class="display-4">Cybersecurity Maturity Model Certification</h1>
+          <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque.</h4>
+          <form>
+            <div class="form-group mt-4 d-flex justify-content-center">
+              <input type="email" class="col-md-5 form-control" id="email" placeholder="Enter e-mail address">
+              <button type="submit" class="btn btn-primary mb-2 col-md-2 ml-3">Request Info</button>
             </div>
-            <button type="submit" class="btn btn-primary mb-2">Request Info</button>
           </form>
         </div>
       </div>
     </section>
     <section class="row">
-      <div class="col-md-12 bg-light" id="info">
-        <h3>Information Here</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-          praesentium doloribus facere modi sint dignissimos dolore, esse nulla
-          tenetur fugit sapiente sunt. Voluptatum quos, quis aliquam fugiat omnis
-          laboriosam officiis.</p>
+      <div class="col-md-12 bg-light d-flex flex-column" id="info">
+        <h1 class="m-5 text-center">What is CMMC?</h1>
+        <div class="d-flex flex-column align-items-center">
+          <img src="/images/cmmc.png" alt="Cybersecurity Maturity Model Certification" class="cmmc-img mb-5">
+          <p class="col-md-8 mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+            praesentium doloribus facere modi sint dignissimos dolore, esse nulla
+            tenetur fugit sapiente sunt. Voluptatum quos, quis aliquam fugiat omnis
+            laboriosam officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Corporis expedita veniam consequatur odit repellendus, possimus eaque eligendi!
+            Cumque perspiciatis ex obcaecati ipsam illo earum veritatis aut optio doloribus,
+            consectetur quia. Corporis expedita veniam consequatur odit repellendus, possimus eaque eligendi!
+            Cumque perspiciatis ex obcaecati ipsam illo earum veritatis aut optio doloribus,
+            consectetur quia.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12 footer-img d-flex">
+        <div class="text-center text-light m-auto">
+          <h1>Learn more today.</h1>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque.</h5>
+          <form>
+            <div class="form-group mt-4 d-flex justify-content-center">
+              <input type="email" class="col-md-4 form-control" placeholder="Enter e-mail address">
+              <button type="submit" class="btn btn-primary mb-2 col-md-2 ml-3">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   </main>
